@@ -16,6 +16,17 @@
   border: 1px solid $lightBorder1;
 }
 
+.experience-card,
+.experience-card-dark {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover,
+.experience-card-dark:hover {
+  transform: translateY(-6px);
+  box-shadow: 4px 30px 40px rgba(155, 44, 234, 0.15);
+}
+
 .experience-card:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
 }
@@ -94,8 +105,8 @@
 .experience-text-role {
   text-align: center;
   color: $textColor;
-  font-weight: 700;
-  font-size: 25px;
+  font-weight: 600;
+  font-size: 28px;
   margin: 0px;
   padding-top: 1.5rem;
   line-height: normal;
@@ -108,17 +119,21 @@
   color: $textColor;
   font-size: 20px;
   margin: 0px;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
   font-weight: 600;
 }
 
 .experience-text-desc {
   text-align: center;
+  color: $textColor;
+  font-size: 17px;
+  font-weight:bold;
 }
 
 .experience-text-details {
   padding: 1.5rem;
   margin-top: 2rem;
+  font-size: 18px;
 }
 
 /* Media Query */
@@ -129,7 +144,7 @@
     font-size: 22px;
   }
   .experience-text-company {
-    font-size: 22px;
+    font-size: 25px;
   }
   .experience-text-date {
     font-size: 18px;

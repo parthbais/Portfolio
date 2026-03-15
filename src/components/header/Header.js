@@ -9,7 +9,6 @@ import {
   skillsSection,
   openSource,
   blogSection,
-  talkSection,
   achievementSection,
   resumeSection
 } from "../../portfolio";
@@ -20,8 +19,6 @@ function Header() {
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
-  const viewBlog = blogSection.display;
-  const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
 
   return (
@@ -48,27 +45,13 @@ function Header() {
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#experience">Projects</a>
             </li>
           )}
-          {viewOpenSource && (
-            <li>
-              <a href="#opensource">Open Source</a>
-            </li>
-          )}
+       
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements</a>
-            </li>
-          )}
-          {viewBlog && (
-            <li>
-              <a href="#blogs">Blogs</a>
-            </li>
-          )}
-          {viewTalks && (
-            <li>
-              <a href="#talks">Talks</a>
+              <a href="#achievements">Certifications</a>
             </li>
           )}
           {viewResume && (
@@ -80,7 +63,7 @@ function Header() {
             <a href="#contact">Contact Me</a>
           </li>
           <li>
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+            {/* anchor-is-valid */}
             <a>
               <ToggleSwitch />
             </a>

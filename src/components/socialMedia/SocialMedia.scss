@@ -25,7 +25,7 @@
   user-select: none;
   width: 2.6rem;
   margin-bottom: 10px;
-  transition: 0.2s ease-in;
+  transition: 0.3s ease-in;
 }
 
 .facebook i {
@@ -48,9 +48,6 @@
   background-color: $google;
 }
 
-.twitter i {
-  background-color: $twitter;
-}
 
 .medium i {
   background-color: $medium;
@@ -69,7 +66,7 @@
 }
 
 /* Hover Transition */
-.twitter i:hover,
+
 .google i:hover,
 .gitlab i:hover,
 .github i:hover,

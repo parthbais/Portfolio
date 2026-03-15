@@ -11,6 +11,8 @@ export default function AchievementCard({cardInfo, isDark}) {
     win.focus();
   }
 
+
+
   return (
     <div className={isDark ? "dark-mode certificate-card" : "certificate-card"}>
       <div className="certificate-image-div">

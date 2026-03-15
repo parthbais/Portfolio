@@ -1,31 +1,38 @@
 @import "../../_globalColor";
 
 .card-image {
-  max-width: 100%;
-  height: auto;
-  width: 250px;
+  margin-top:0px;
+  border-radius: 20px;
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
 }
 .card-title {
   color: $titleColor;
-  font-size: 1.375rem;
-  line-height: 24px;
+  font-size: 1.8rem;
+  line-height: 30px;
   font-weight: 700;
-  margin: 15px 0 0 0;
+  margin: 25px 10px 20px 21px;
+  margin-top: 0px;
 }
 .card-subtitle {
   color: $cardSubtitle;
-  font-size: 1.063rem;
-  line-height: 1.5rem;
+  font-size: 1  rem;
+  line-height: 1.9rem;
+  justify-content: left;
+  padding-top : 5px;
+  margin: 0px 10px 20px 21px;
 }
 .certificate-card {
   background-color: $lightBackground2;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
-  padding: 1.5rem;
-  border-radius: 10px;
-  border: 1px solid $lightBorder1;
+  height:500px;
+  padding: 1rem;
+  border-radius: 20px;
+  border: 2px solid $lightBorder1;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
 }
 .certificate-detail-div {
   text-align: center;
@@ -36,13 +43,22 @@
 .dark-mode.certificate-card:hover {
   box-shadow: $achievementCertificateCardHoverDark 0px 20px 30px -10px;
 }
+.achievement-cert-list{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+  width:100%;
+  padding-top:10px;
+}
+
 .certificate-image-div {
   position: relative;
-  height: 250px;
+  height: 200px;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 20px;
 }
 .achievement-cards-div {
   display: grid;
@@ -62,16 +78,19 @@
   align-items: center;
   border-radius: 4px;
   display: inline-flex;
-  font-size: 0.75rem;
-  height: 2em;
+  font-size: 1.8rem;
+  height: 4rem;
   justify-content: center;
   white-space: nowrap;
-  line-height: 1.5;
+  line-height: 1.5rem;
   margin: 0 0.5rem 0.5rem 0;
-  padding: 0 0.75em;
+  padding: 0 1.25em;
   cursor: pointer;
   transition: 0.2s ease-in;
 }
 span.certificate-tag:hover {
   background: $buttonHover;
 }
+
+
+

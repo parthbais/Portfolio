@@ -1,0 +1,42 @@
+.cert-container{
+  padding: 30px;
+}
+
+.cert-title{
+  font-size: 28px;
+  margin-bottom: 25px;
+  text-align:center;
+}
+
+.cert-list{
+  list-style:none;
+  padding:0;
+}
+
+.cert-item{
+  margin-bottom:18px;
+}
+
+.cert-item a{
+  text-decoration:none;
+  display:block;
+  padding:14px 20px;
+  border-radius:8px;
+  background:#1f2937;
+  transition:all .25s ease;
+}
+
+.cert-item a:hover{
+  transform:translateX(8px);
+  background:#364661;
+}
+
+.cert-name{
+  font-size:18px;
+  font-weight:600;
+}
+
+.cert-org{
+  font-size:14px;
+  opacity:.7;
+}

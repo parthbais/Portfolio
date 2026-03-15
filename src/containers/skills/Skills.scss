@@ -7,25 +7,28 @@
 }
 
 .skills-text-div {
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 .skills-main-div > * {
   flex: 1;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .skills-image-div > img {
   max-width: 100%;
   height: auto;
+
 }
 
 .skills-heading {
-  font-size: 56px;
-  font-weight: 400;
+  font-size: 60px;
+  font-weight: 500;
+  font-weight: bold ;
 }
 .subTitle {
   color: $subTitle;
+   font-size: 22px;
 }
 
 /* Media Query */
@@ -48,10 +51,10 @@
   }
   .skills-text-div {
     margin-left: 0px;
-    margin: 20px;
+    margin: 10px;
   }
   .skills-text {
-    font-size: 16px;
+    font-size: 15px;
   }
   .skills-text-subtitle {
     font-size: 16px;

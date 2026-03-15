@@ -3,6 +3,7 @@ import "./StartupProjects.scss";
 import {bigProjects} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import Button from "../../components/button/Button";
 
 export default function StartupProject() {
   function openUrlInNewTab(url) {
@@ -66,21 +67,18 @@ export default function StartupProject() {
                       {project.projectDesc}
                     </p>
                     {project.footerLink ? (
-                      <div className="project-card-footer">
-                        {project.footerLink.map((link, i) => {
-                          return (
-                            <span
-                              key={i}
-                              className={
-                                isDark ? "dark-mode project-tag" : "project-tag"
-                              }
-                              onClick={() => openUrlInNewTab(link.url)}
-                            >
-                              {link.name}
-                            </span>
-                          );
-                        })}
-                      </div>
+                      <div style={{display: "flex", gap: "15px", marginTop: "15px"}}>
+                      {project.footerLink.map((link, i) => {
+                        return (
+                          <Button
+                            key={i}
+                            text={link.name}
+                            href={link.url}
+                            newTab={true}
+                          />
+                        );
+                      })}
+                    </div>
                     ) : null}
                   </div>
                 </div>

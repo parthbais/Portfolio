@@ -38,18 +38,14 @@ export default function Greeting() {
               </p>
               <div id="resume" className="empty-div"></div>
               <SocialMedia />
-              <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
-                {greeting.resumeLink && (
-                  <a
-                    href={require("./resume.pdf")}
-                    download="Resume.pdf"
-                    className="download-link-button"
-                  >
-                    <Button text="Download my resume" />
-                  </a>
-                )}
-              </div>
+            <div className="button-greeting-div">
+                  <Button text="Contact me" href="#contact" />
+                  <Button
+                    text="View My Resume"
+                    href="https://drive.google.com/drive/folders/1ngBnuaV9gzwij5RqsA-4mP9yDwP3EZ-j?usp=drive_link"
+                    newTab={true}
+                  />
+                </div>
             </div>
           </div>
           <div className="greeting-image-div">

@@ -4,13 +4,13 @@
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 .greet-main {
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 .greeting-main {
@@ -36,29 +36,30 @@
 
 .button-greeting-div {
   display: flex;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 .download-link-button {
   text-decoration: none;
 }
 
 .greeting-text {
-  font-size: 70px;
+  font-size: 50px;
   line-height: 1.1;
   color: $textColor !important;
 }
 
 .greeting-text-p {
-  font-size: 30px;
+  font-size: 20px;
   line-height: 40px;
 }
 
 .greeting-image-div > img {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
 }
 
 .wave-emoji {
+  max-width: 50px;
   animation-duration: 1.8s;
   animation-iteration-count: infinite;
   animation-name: wave;
@@ -93,10 +94,10 @@
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
-    font-size: 50px;
+    font-size: 30px;
   }
   .greeting-text-p {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 @media (max-width: 768px) {
@@ -104,11 +105,11 @@
     justify-content: space-around;
   }
   .greeting-text {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
   }
   .greeting-text-p {
-    font-size: 16px;
+    font-size: 6px;
     line-height: normal;
     text-align: center;
   }

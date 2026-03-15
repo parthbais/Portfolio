@@ -41,14 +41,20 @@ export default function Contact() {
                   <br />
                 </>
               )}
-              <a
-                className="contact-detail-email"
-                href={"mailto:" + contactInfo.email_address}
-              >
-                {contactInfo.email_address}
-              </a>
-              <br />
-              <br />
+                <a
+                  className="contact-detail-email"
+                  href={"mailto:" + contactInfo.email_address}
+                >
+                  {contactInfo.email_address}
+                </a>
+                <br />
+                <br />
+
+                <p className={isDark ? "dark-mode subTitle" : "subTitle"}>
+                🌐📍 Nagpur, Maharashtra, India - 440016
+                </p>
+
+                <br />
               <SocialMedia />
             </div>
           </div>

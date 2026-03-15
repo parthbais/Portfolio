@@ -1,6 +1,7 @@
 import React, {useState, createRef} from "react";
 import "./ExperienceCard.scss";
 import ColorThief from "colorthief";
+import Button from "../button/Button"; 
 
 export default function ExperienceCard({cardInfo, isDark}) {
   const [colorArrays, setColorArrays] = useState([]);
@@ -78,6 +79,20 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
+
+        {cardInfo.footerLink && (
+          <div style={{display: "flex", gap: "12px", marginTop: "20px" , justifyContent: "center"}}>
+            {cardInfo.footerLink.map((link, i) => (
+              <Button
+                key={i}
+                text={link.name}
+                href={link.url}
+                newTab={true}
+              />
+            ))}
+          </div>
+        )}
+
       </div>
     </div>
   );

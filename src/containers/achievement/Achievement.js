@@ -33,22 +33,46 @@ export default function Achievement() {
               {achievementSection.subtitle}
             </p>
           </div>
-          <div className="achievement-cards-div">
-            {achievementSection.achievementsCards.map((card, i) => {
-              return (
-                <AchievementCard
-                  key={i}
-                  isDark={isDark}
-                  cardInfo={{
-                    title: card.title,
-                    description: card.subtitle,
-                    image: card.image,
-                    imageAlt: card.imageAlt,
-                    footer: card.footerLink
-                  }}
-                />
-              );
-            })}
+
+          <div className="achievement-layout">
+
+  <div className="achievement-feature">
+    <AchievementCard
+      isDark={isDark}
+      cardInfo={{
+        title: achievementSection.achievementsCards[0].title,
+        description: achievementSection.achievementsCards[0].subtitle,
+        image: achievementSection.achievementsCards[0].image,
+        imageAlt: achievementSection.achievementsCards[0].imageAlt,
+        footer: achievementSection.achievementsCards[0].footerLink
+      }}
+    />
+  </div>
+
+  <div className="achievement-cert-list">
+    {achievementSection.certificates && achievementSection.certificates.length > 0 ? (
+      achievementSection.certificates.map((cert, i) => (
+    <a
+  key={i}
+  href={cert.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="cert-item"
+>
+  <div className="cert-text">
+    <div className="cert-name">{cert.name}</div>
+    <div className="cert-org">{cert.org}</div>
+  </div>
+
+  <span className="cert-arrow">→</span>
+</a>
+      ))
+    ) : (
+      <p>No certificates found</p>
+    )}
+  </div>
+
+
           </div>
         </div>
       </div>
