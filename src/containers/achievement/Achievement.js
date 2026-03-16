@@ -64,7 +64,7 @@ export default function Achievement() {
     <div className="cert-org">{cert.org}</div>
   </div>
 
-  <span className="cert-arrow">→</span>
+  <span className="cert-arrow">-→</span>
 </a>
       ))
     ) : (

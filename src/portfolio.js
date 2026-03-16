@@ -158,29 +158,33 @@ const workExperiences = {
   display: true,
  experience: [
   {
-    role: "GoHype – Apparels ",
-    company: "Full Stack Project",
-    companylogo: require("./assets/images/Gohype_logo.jpg"),
-    date: "2024",
-    desc: emoji("Developed a full stack e-commerce web app for concert, apparel, events and more 👚👠 with React frontend and Node.js backend."),
-    descBullets: [
-      "Developed responsive UI using React components",
-      "Implemented backend APIs using Node.js",
-      "Connected frontend and backend with REST APIs",
-    ],
-    footerLink: [
-      {
-        name: "GitHub",
-        url: "https://github.com/parthbais/GoHype_Site.git"
-      },
+  role: "GoHype – Influencer & Event Management Platform",
+  company: "Full Stack Web Application",
+  companylogo: require("./assets/images/Gohype_logo.jpg"),
+  date: "2024",
 
-      {
-        name: " Live ",
-        url: "https://github.com/parthbais/GoHype_Site.git"
-      } 
-    ]
+  desc: "Full-stack platform built for Hype Unlimited to connect brands with celebrities and influencers while managing events, collaborations and PR campaigns.",
 
-  },
+  descBullets: [
+    "Developed responsive frontend using React for brand and influencer interaction",
+    "Built backend APIs using Node.js for campaign, booking and event management",
+    "Integrated SQL database for storing brand, influencer and collaboration data",
+    "Implemented full stack architecture connecting frontend, backend and database"
+  ],
+
+  footerLink: [
+    {
+      name: "GitHub",
+      url: "https://github.com/parthbais/GoHype_Site"
+    },
+
+    {
+      name: "Live",
+      url: "https://gohypeevents.vercel.app/"
+    }
+  ]
+},
+
   
   {
     role: "Locall-E Startup Web Application",
@@ -196,9 +200,16 @@ const workExperiences = {
     ],
     footerLink:[ 
            {     name: "GitHub",
-                url: "https://github.com/parthbais/locally.git"}
+                 url: "https://github.com/parthbais/locally.git"
+          },
+
+           {     name: "Live",
+                 url: "https://roadcoally.vercel.app/"
+           },
+                // https://roadcoally.vercel.app/
   ]
   },
+
 
   {
     role: "Equipment Fault Detection ML",
@@ -236,8 +247,8 @@ const workExperiences = {
     ],
     footerLink: [
       {
-        name: "GitHub",
-        url: "https://github.com/parthbais/GoHype_Site"
+        name: "Currently working ☝️",
+        url: "https://github.com/parthbais/buildboard.git"
       },
     ]
   }
@@ -290,17 +301,27 @@ const achievementSection = {
         "STM32 based healthcare monitoring system acquiring ECG, SpO₂ and motion data using AD8232, MAX30102 and MPU6050 sensors.",
       image: require("./assets/images/AImodel.png"),
       imageAlt: "Healthcare Project",
-      footerLink: [{ name: "Project Details", url: "#" }]
+      footerLink: [{ name: "Project Details", url: "https://drive.google.com/file/d/1b5fqVWPbt4N3jxHoGCs4mIa_-ou_eZLa/view?usp=drive_link" }]
+
     }
   ],
 
   certificates: [
-    { name: "AWS Cloud Practitioner Essentials", org: "Amazon Web Services", link: "#" },
-    { name: "Introduction to DevOps", org: "IBM – Coursera", link: "#" },
-    { name: "SQL for Data Science", org: "IBM – Coursera", link: "#" },
-    { name: "Power BI Data Visualization", org: "Microsoft / Coursera", link: "#" },
-    { name: "Python for Data Analysis", org: "Coursera", link: "#" },
-    { name: "Embedded Systems Fundamentals", org: "Udemy", link: "#" }
+    { name: "AWS Cloud Machine Learning", org: "Amazon Academy", link: "https://drive.google.com/file/d/1Zu6HUuhIn9IaXT7BGB4QHPEFcVfAjoHU/view?usp=drive_link" }, 
+    
+    { name: "Introduction to DevOps", org: "IBM – Coursera", link: "https://drive.google.com/file/d/1atvmgMpD1hsdj471F6J5edwhtYA0rJHk/view?usp=drive_link" },
+
+
+    { name: "Python for Data Science, AI & Development ", org: "IBM – Coursera", link: "https://drive.google.com/file/d/17Ejp_3IxVN7Tc-4X1FpCDqLC9K0slcqM/view?usp=drive_link" },
+
+
+    { name: " Introduction to Data Analysis Using Excel", org: "Rice University | Coursera", link: "https://drive.google.com/file/d/1-AfPNjFpi-8zNOKO4V7DJ4J7AGEqgx4M/view?usp=drive_link" },
+
+
+    { name: "NLP Deep Learning with Classification and Vector Spaces", org: "DeepLearning.AI | Coursera", link: "https://drive.google.com/file/d/1uy-Ho-LPkiteWZkMnSo-KMZRchEGAxL2/view?usp=drive_link" },
+
+
+    { name: "NLP with Probabilistic Models DEEP LEARNING Fundamentals", org: "DeepLearning.AI | Coursera", link: "https://drive.google.com/file/d/1Bfen6h7U6uELwwr8euAfYJO1nc0HyQ45/view?usp=drive_link" }
   ],
 
   display: true
@@ -338,14 +359,13 @@ const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
 
-  // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
 };
 
   const contactInfo = {
     title: emoji("Contact Me ☎️"),
     subtitle:
-    "Actively seeking opportunities for Fulltime and Internship roles! 🚀",
+    "Eager to contribute and grow. 📈 Open to Full-time & Internship opportunities. 🚀",
     number: "+91-7709914297",
     email_address: "parthbais710@gmail.com",
 
