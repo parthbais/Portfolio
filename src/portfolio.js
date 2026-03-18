@@ -23,7 +23,7 @@ const greeting = {
     "Full-Stack & Cloud enthusiast 🚀 experienced with Java, Python, SQL, React, and AWS. I enjoy building real-world web applications and deploying them using modern cloud and DevOps practices. Actively seeking entry-level Software or Cloud Engineering roles to contribute and grow. 😎"
   ),
   resumeLink:
-    "https://drive.google.com/drive/folders/1ngBnuaV9gzwij5RqsA-4mP9yDwP3EZ-j?usp=drive_link",
+    "https://drive.google.com/drive/folders/1ngBnuaV9gzwij5RqsA-4mP9yDwP3EZ-j?usp=sharing",
   displayGreeting: true 
 };
 
@@ -225,7 +225,7 @@ const workExperiences = {
     ],
     footerLink: [
       {
-        name: "Collab",
+        name: "View Project",
         url: "https://colab.research.google.com/drive/1XsVP6ZGGe5ix6yt2W9bOXFPkyBDkl0OX?usp=sharing"
       },
     ]
@@ -307,21 +307,21 @@ const achievementSection = {
   ],
 
   certificates: [
-    { name: "AWS Cloud Machine Learning", org: "Amazon Academy", link: "https://drive.google.com/file/d/1Zu6HUuhIn9IaXT7BGB4QHPEFcVfAjoHU/view?usp=drive_link" }, 
+    { name: "AWS Cloud Machine Learning", org: "Amazon Academy", link: "https://drive.google.com/file/d/1Zu6HUuhIn9IaXT7BGB4QHPEFcVfAjoHU/view?usp=sharing" }, 
     
-    { name: "Introduction to DevOps", org: "IBM – Coursera", link: "https://drive.google.com/file/d/1atvmgMpD1hsdj471F6J5edwhtYA0rJHk/view?usp=drive_link" },
+    { name: "Introduction to DevOps", org: "IBM – Coursera", link: "https://drive.google.com/file/d/1atvmgMpD1hsdj471F6J5edwhtYA0rJHk/view?usp=sharing" },
 
 
-    { name: "Python for Data Science, AI & Development ", org: "IBM – Coursera", link: "https://drive.google.com/file/d/17Ejp_3IxVN7Tc-4X1FpCDqLC9K0slcqM/view?usp=drive_link" },
+    { name: "Python for Data Science, AI & Development ", org: "IBM – Coursera", link: "https://drive.google.com/file/d/17Ejp_3IxVN7Tc-4X1FpCDqLC9K0slcqM/view?usp=sharing" },
 
 
-    { name: " Introduction to Data Analysis Using Excel", org: "Rice University | Coursera", link: "https://drive.google.com/file/d/1-AfPNjFpi-8zNOKO4V7DJ4J7AGEqgx4M/view?usp=drive_link" },
+    { name: " Introduction to Data Analysis Using Excel", org: "Rice University | Coursera", link: "https://drive.google.com/file/d/1-AfPNjFpi-8zNOKO4V7DJ4J7AGEqgx4M/view?usp=sharing" },
 
 
-    { name: "NLP Deep Learning with Classification and Vector Spaces", org: "DeepLearning.AI | Coursera", link: "https://drive.google.com/file/d/1uy-Ho-LPkiteWZkMnSo-KMZRchEGAxL2/view?usp=drive_link" },
+    { name: "NLP Deep Learning with Classification and Vector Spaces", org: "DeepLearning.AI | Coursera", link: "https://drive.google.com/file/d/1uy-Ho-LPkiteWZkMnSo-KMZRchEGAxL2/view?usp=sharing" },
 
 
-    { name: "NLP with Probabilistic Models DEEP LEARNING Fundamentals", org: "DeepLearning.AI | Coursera", link: "https://drive.google.com/file/d/1Bfen6h7U6uELwwr8euAfYJO1nc0HyQ45/view?usp=drive_link" }
+    { name: "NLP with Probabilistic Models DEEP LEARNING Fundamentals", org: "DeepLearning.AI | Coursera", link: "https://drive.google.com/file/d/1Bfen6h7U6uELwwr8euAfYJO1nc0HyQ45/view?usp=sharing" }
   ],
 
   display: true
