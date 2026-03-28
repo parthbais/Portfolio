@@ -233,29 +233,29 @@ const workExperiences = {
    
   },
 
-  {
-    role: "AI Chat Summarizer Extension",
-    company: "AI + Browser Extension",
-    companylogo: require("./assets/images/AIsum.png"),
-    date: "2024",
-    desc: "Browser extension that summarizes WhatsApp Web conversations using AI.",
-    descBullets: [
-      "Extracted chat messages using DOM parsing",
-      "Integrated Google Gemini API for summarization",
-      "Implemented Chrome Extension Manifest V3",
-      "Displayed summarized conversation in browser UI"
-    ],
-    footerLink: [
-      {
-        name: "Currently working ☝️",
-        url: "https://github.com/parthbais/buildboard.git"
-      },
-    ]
-  }
+{
+  role: "CI/CD Pipeline with Docker & AWS",
+  company: "Docker · AWS EC2 · GitHub Actions · Linux",
+  companylogo: require("./assets/images/AIsum.png"),
+  date: "2025",
+  desc: "Automated CI/CD pipeline that builds and deploys a Dockerized portfolio site to AWS EC2 on every GitHub push.",
+  descBullets: [
+    "Containerized React app using multi-stage Docker build with Nginx",
+    "Launched and configured AWS EC2 instance with security groups and IAM",
+    "Built GitHub Actions workflow to automatically SSH into EC2 and redeploy on push",
+    "Configured Elastic IP for stable server access and Docker for consistent deployments"
+  ],
+  footerLink: [
+    {
+      name: "View Live on EC2",
+      url: "http://3.7.36.58/"
+    },
+  ]
+}
 ]
-};
 
 
+}
 
 const openSource = {
   showGithubProfile: "false", 
