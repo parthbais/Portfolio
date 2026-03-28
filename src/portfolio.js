@@ -230,7 +230,7 @@ const workExperiences = {
       },
     ]
 
-    
+   
   },
 
   {
