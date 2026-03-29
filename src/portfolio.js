@@ -56,26 +56,35 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
    softwareSkills: [
+
   {
-    skillName: "HTML5",
-    fontAwesomeClassname: "fab fa-html5"
+    skillName: "Java",
+    fontAwesomeClassname: "fab fa-java"
   },
+
   {
-    skillName: "CSS3",
-    fontAwesomeClassname: "fab fa-css3-alt"
+    skillName: "Python",
+    fontAwesomeClassname: "fab fa-python"
+  }, 
+  {
+    skillName: "Linux",
+    fontAwesomeClassname: "fab fa-linux"
   },
+
   {
     skillName: "JavaScript",
     fontAwesomeClassname: "fab fa-js"
   },
+
   {
     skillName: "React",
     fontAwesomeClassname: "fab fa-react"
   },
-  {
-    skillName: "Python",
-    fontAwesomeClassname: "fab fa-python"
+    {
+    skillName: "Node.js",
+    fontAwesomeClassname: "fab fa-node-js"
   },
+  
   {
     skillName: "Git",
     fontAwesomeClassname: "fab fa-git-alt"
@@ -84,6 +93,7 @@ https://fontawesome.com/icons?d=gallery */
     skillName: "AWS",
     fontAwesomeClassname: "fab fa-aws"
   },
+
   {
     skillName: "Docker",
     fontAwesomeClassname: "fab fa-docker"
@@ -92,10 +102,7 @@ https://fontawesome.com/icons?d=gallery */
     skillName: "Database",
     fontAwesomeClassname: "fas fa-database"
   },
-  {
-    skillName: "Linux",
-    fontAwesomeClassname: "fab fa-linux"
-  }
+
 
   ],
   display: true 
@@ -135,7 +142,7 @@ const techStack = {
   viewSkillBars: true, 
  experience: [
   {
-    Stack: "Cloud & DevOps (AWS, Docker, CI/CD)",
+    Stack: "Cloud & DevOps (AWS, Linux, Docker, CI/CD)",
     progressPercentage: "85%"
     
   },
@@ -144,7 +151,7 @@ const techStack = {
     progressPercentage: "75%"
   },
   {
-    Stack: "Programming & Systems (Java, Linux, Git)",
+    Stack: "Programming & Systems (Java, Python, Linux, Git)",
     progressPercentage: "70%"
   }
 ],
